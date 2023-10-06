@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="URF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Design Studio</title>
+        <link rel = "stylesheet" href="reset.css"> 
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    </head>
+    
+    <body>
+
+        <header>
+            <div class="caja">
+                <h1>
+                    <img src="Imagenes/Logo_DGS_Negro.png" id="Logo">
+                </h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href ="Catalogo.html">Catalogo</a></li>
+                        <li><a href ="Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+           </div>
+        </header>
+
+        <main>
+            <section class="principal">
+                <h2 class="titulo-principal"> Us </h2>
+
+                <img src="Imagenes/Sticker.jpeg" class="sticker" alt="Sticker La Vida Bonita"> 
+
+                <p>Ubicada en el corazón de la ciudad, la <strong>Design Studio </strong>trae para el mercado lo mejor en Disenio y Produccion. Fundada en 2017, Design Studio se ha caracterizado por la atencion personalizada a sus actuales y nuevos clientes. </p>
+
+                <p id = "mision"><em>Nuestra misión es: <strong>"Ser el proovedor lider en disenio e impresion de stickers en Guadalajara."</strong>.</em></p>
+
+                <p>Nuestro equipo de disenio proporciona atencion eficaz guiando de la mano a los clientes para en conjunto encontrar la mejor solucion para el cliente final. Asi mismo, su equipo de produccion se caracteriza por trabajar con atento cuidado a las solicitudes del cliente teniendo lista su solicitud en tiempo y forma. 
+                </p>
+            </section>
+
+            <section class="mapa">
+                <h3 class="titulo-principal">Ubicacion</h3>
+                <p>Estamos ubicados en el corazon de la ciudad</p>
+
+                <div class="mapaContenido">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.000130251867!2d-103.35763372584007!3d20.669573700020546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b121e7fa5c6f%3A0x513eb94898ba20f3!2sDisegna%20Graphic%20Studio!5e0!3m2!1sen!2smx!4v1684087689364!5m2!1sen!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+            </section>
+
+            
+            <section class="ValorAgregado">
+
+                <h3 class="titulo-principal"> Valor Agregado </h3>
+
+                <div class="contenido-VA">
+                    <ul class="lista-VA">
+                        <li class="items">Atencion de la mano a sus clientes. </li>
+                        <li class="items">Materiales de la mejor calidad. </li>
+                        <li class="items">Alcance de mercado. </li> 
+                        <li class="items">Profesionales calificados. </li>
+                        <li class="items">Eficacia. </li>
+                    </ul>   
+                </div>
+            </section> 
+        </main>
+        
+        <footer>
+            <img src="Imagenes/Logo_2_Blanco.png" id = "Logo2">
+            <p class= "copyright">
+                &copy Copyright Disegna Graphic Studio (colocar anio...)
+            </p>
+        </footer>
+ 
+    </body>
+    
+</html>
+
+
+
+<script>
+    /* 
+                                            TAGS
+    <p>         permite generar un parrafo.
+    <h>         genera un titulo, se permite tener hasta nivel 6, siendo el 6 el tamanio mas pequenio.
+    <strong>    coloca la letra en negritas.  
+    <em>        genera enfasis en el texto, tipo italica.
+    <hmtl>      lleva todo el contenido de la pagina a mostrar.
+    <meta charset="URF-8">      permite leer el codigo en todos los navegadores, e incluye la mayoria de los idionas.
+    lang        permite definir el idioma en que se encuentra la pagina.
+    <title>     asigna nombre a mostrar en la pestania del navegador.
+    <head>      etiqueta informativa.
+    <body>      es todo el contenido de la pagina.
+    <ul>        unordered list / lista no ordenada. 
+    <ol>        ordered list / lista ordenada.
+    <li>        list item.
+    <div>       divide la pagina.
+    <section>   funciona ya mostar que es un bloque semantico.
+    <iframe>    crea espacio para contenido visual, grafico, video...
+
+
+    CSS (Cascade Style Sheet)
+    <style>     define el estilo del texto.
+                Es posible generar etiquetas nested.
+    <link>      permite ligar los archivos CSS con HTML.
+    <id>        se utiliza para editar un solo elemento.
+    <class>     permite la edicion para varios elementos.
+    El codigo hexadecimal se basa en nivel de color en donde 0 respresenta el negro y F representa blanco.
+    El nivel de intensidad se representa: 0,1,2,3,4,5,6,A,B,C,D,F
+    class       para aplicar una clase se debe colocar un punto . antes del nombre de la clase.
+    Los dos primeros caracteres son representados por rr (red), los siguientes dos gg (green) y los ultimos dos por bb (blue).
+    <float>     coloca un elemento a un costado y el resto del contenido lo rodea.
+    <line-height>   genera un interlineado, espacio entre parrafo y parrafo.
+    <linear-gradient>    genera un degrado de color.
+    >           aplica solo al hijo del padre.
+    +           se selecciona al primer elemento subsecuente a otro elemento.
+    ~           negacion, selecciona a todos los elementos subsecuentes a otro elemento.
+    :#not()     aplica una seleccion a todos los elementos excepto al seleccionado.
+    calc        permite hacer el calculo que ayuda a que la imagen se adapte al tipo de pantalla en la que esta navegando
+                el usuario.
+    box-shadow  proporciona un sombreado a un elemento como imagen, video...
+    test-shadow proporciona un sombreado a texto.
+    @media      genera condiciones para que la interfaz sea responsiva acorde al navegador que se este utilizando.
+    
+*/ </script> 

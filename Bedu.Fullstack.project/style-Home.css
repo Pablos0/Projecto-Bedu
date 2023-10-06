@@ -1,0 +1,53 @@
+
+.titulo-principal {
+    padding-left: 30px;
+    
+}
+
+.titulo-central {
+    text-align: center;
+}
+
+p {
+    text-align: center; 
+    background: #CCCCCC;
+}
+
+em strong {
+    color: red;
+}
+
+#mision {
+    font-size: 20px;
+}
+
+#Disegna {
+    width: 100%;
+    font-size: 20px;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+.diferenciales {
+    background: #ffffff;
+}
+
+.items {
+    font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#Equipo {
+    width: 50%;
+    font-size: 20px;
+    padding: 30px;
+}

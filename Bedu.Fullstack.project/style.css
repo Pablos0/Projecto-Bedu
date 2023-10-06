@@ -1,0 +1,303 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#Logo {
+    width: 10%;
+}
+
+header {
+    background-color: rgba(137, 136, 44, 0.678);
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 58.875px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(43, 39, 39);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #cf9b33;
+    text-decoration: underline;
+}
+
+.catalogo {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.catalogo li {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 1.5% 1%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 3px solid rgb(238, 227, 73);
+    border-radius: 15px;
+    background: black;
+}
+
+.catalogo li:hover {
+    border-color: #c78c19;
+}
+
+.catalogo li:active {
+    border-color: gray;
+}
+
+.catalogo h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: rgb(238, 227, 73);
+}
+
+.catalogo li:hover h2 {
+    font-size: 33px;
+}
+
+.catalogo img {
+    width: 35%;
+    border-radius: 15px;
+}
+
+.descripcion {
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(238, 227, 73);
+} 
+
+.precio {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(238, 227, 73);
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(137, 136, 44, 0.678);
+    padding: 15px;
+}
+
+.copyright {
+    color: whitesmoke;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
+#Logo2 {
+    width: 10%;
+}
+
+form {
+    margin: 40px 0;
+}
+
+main {
+    padding: 3em 0;
+    background: linear-gradient(#FFFFFF, #888888);
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 50px 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 50px 20px;
+    padding: 5px 25px;
+    width: 30%;
+}
+
+.checkbox {
+    margin: 20px 50px;
+}
+
+.option {
+    margin: 0 50px 0;
+}
+
+.enviar {
+    width: 30%;
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 0 50px -30px;
+}
+
+.enviar:hover {
+    background-color: darkgoldenrod;
+    transform: scale(1.1);
+}
+
+.tabla {
+    margin: -10px 50px 25px;
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000; 
+    padding: 5px 15px;
+}
+
+/* Aqui inicia el CSS para pagina de inicio */
+
+.Disegna {
+    width: 100%;
+}
+
+.principal {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.titulo-principal::first-letter {
+    font-weight: bold;
+}
+
+p:first-line {
+    font-style: italic;
+}
+
+.sticker {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 15px;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapaContenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.ValorAgregado {
+    padding: 3em 0;
+}
+
+.contenido-VA {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-VA {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.items {
+    line-height: 1.5;
+    align-items: center;
+}
+
+.items:before {
+    content: "★";
+}
+
+.items:first-child {
+    font-weight: bold;
+}
+
+.imagen-VA {
+    width: 50%;
+    box-shadow: 10px 10px 30px black;
+    border-radius: 10px;
+}
+
+.imagen-VA:hover {
+    opacity: 0.3;
+    transition: 400ms;
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
+}
+
+@media screen and (max-width:480px) {
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+
+    .caja, .principal, .mapaContenido, .contenido-VA, .video {
+        width: auto;
+    }
+    
+    .lista-VA, .imagen-VA {
+        width: 100%;
+    }
+}
